@@ -1,4 +1,4 @@
-# form-components
+# my-components-lib
 
 ## Project setup
 ```

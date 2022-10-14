@@ -1,10 +1,10 @@
 // rollup.config.umd.js
-import baseConfig, { file, name } from './rollup.config'
+import baseConfig, { file } from './rollup.config'
 
 export default {
   ...baseConfig,
   output: {
-    name, // 组件库全局对象
+    name: 'MyComponents', // 组件库全局对象
     file: file('umd'),
     format: 'umd', // umd 模式
     globals: {
