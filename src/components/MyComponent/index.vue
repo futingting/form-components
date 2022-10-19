@@ -1,3 +1,4 @@
+<!-- src/components/MyComponent/index.vue -->
 <template>
   <div class="my-component-test">My Component Test</div>
 </template>

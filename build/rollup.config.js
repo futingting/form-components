@@ -28,6 +28,11 @@ export default {
     file: file('esm'),
     format: 'es' // 编译模式
   },
-  plugins: [nodeResolve(), typescript({ tsconfigOverride: overrides }), vuePlugin(), css({ output: 'bundle.css' })],
+  plugins: [
+    nodeResolve(),
+    typescript({ tsconfigOverride: overrides }),
+    vuePlugin(),
+    css({ output: 'bundle.css' })
+  ],
   external: ['vue'] // 依赖模块
 }

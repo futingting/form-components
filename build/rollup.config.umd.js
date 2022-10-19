@@ -10,6 +10,6 @@ export default {
     globals: {
       vue: 'Vue' // vue 全局对象名称，若有 lodash 则应为 _
     },
-    exports: 'named' 
+    exports: 'named'
   }
 }
